@@ -90,7 +90,7 @@
 			<item key="restart_enigma" text="Restart enigma" requires="!InDebugMode"><screen module="Standby" screen="TryQuitMainloop">3</screen></item>
 			<item key="restart_enigma" text="Restart enigma in standard mode" requires="InDebugMode"><screen module="Standby" screen="TryQuitMainloop">3</screen></item>
 			<item key="restart_enigma_debug" text="Restart enigma in debug mode" requires="!InDebugMode"><screen module="Standby" screen="TryQuitMainloop">6</screen></item>
-			<item key="multiboot" text="Multiboot image" requires="canMultiBoot"><screen module="FlashImage" screen="MultibootSelection">1</screen></item>
+			<item key="multiboot" text="Multiboot" requires="canMultiBoot"><screen module="FlashImage" screen="MultibootSelection">1</screen></item>
 			<item key="deep_standby" text="Deep standby" requires="DeepstandbySupport"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
 			<item key="deep_standby" text="Shutdown" requires="!DeepstandbySupport"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
 		</menu>
