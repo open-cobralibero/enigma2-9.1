@@ -39,7 +39,7 @@ class About(Screen):
 		ImageVersion = _("Last update: ") + about.getImageVersionString()
 		self["ImageVersion"] = StaticText(ImageVersion)
 		AboutText += ImageVersion + "\n" 
-		AboutText += _("Forum: https://cobraliberosat.ne") + "\n"
+		AboutText += _("Forum: https://cobraliberosat.net") + "\n"
 
 		# [WanWizard] Removed until we find a reliable way to determine the installation date
 		# AboutText += _("Installed: ") + about.getFlashDateString() + "\n"
